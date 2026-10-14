@@ -3,6 +3,9 @@
 # 以及 logs\launcher.log / check.txt（里面有你的账号名）。这些都不该公开。
 out/
 
+# 发布包（zip 走 GitHub Releases，不进仓库）
+dist/
+
 # 运行时状态（exe 同目录生成）
 geometry.json
 logs/
