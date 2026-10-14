@@ -1,0 +1,19 @@
+{
+  "_comment": "DshPath 留空即可：启动器会依次找 %DSH_EXE% 环境变量、%LOCALAPPDATA%\\Programs\\DeepSeek Harness\\、%ProgramFiles%\\DeepSeek Harness\\、%LOCALAPPDATA%\\DeepSeek Harness\\、以及 exe 同目录，找到就用。想固定就填你自己的完整路径。WindowBounds 保持 auto：首次运行自动检测 DSH 客户区并记住，之后每次立刻出现；要完全跳过检测再改成 fixed 并填下面四个值（用 --bounds 生成）。",
+  "DshPath": "",
+
+  "WindowBounds": "auto",
+  "WindowLeft": 0,
+  "WindowTop": 0,
+  "WindowWidth": 0,
+  "WindowHeight": 0,
+
+  "VideoFit": "aspect",
+  "FadeLeadSeconds": 0.7,
+  "FadeOutSeconds": 0.7,
+  "MatchDshWindow": true,
+  "MatchWaitSeconds": 6.0,
+  "ExtraHoldSeconds": 1.2,
+  "MaxHoldSeconds": 25.0,
+  "AllowSkip": true
+}

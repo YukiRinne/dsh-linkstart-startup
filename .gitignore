@@ -1,0 +1,23 @@
+# ---- 绝不提交：构建产物 ----
+# out\ 里含有：本机 DSH 路径、geometry.json（你的窗口坐标）、
+# 以及 logs\launcher.log / check.txt（里面有你的账号名）。这些都不该公开。
+out/
+
+# 运行时状态（exe 同目录生成）
+geometry.json
+logs/
+
+# ---- 素材：有意随仓库发布 ----
+# intro_dsh.mp4 + link-start.wav + title.png + dsh.ico 共约 11.8 MB，已确认可以上传，
+# 保持被跟踪。若以后想改成"只发源码"的仓库，把下面两行取消注释即可。
+# assets/intro_dsh.mp4
+# assets/link-start.wav
+
+# ---- Windows / 编辑器噪声 ----
+Thumbs.db
+Desktop.ini
+*.user
+*.suo
+*.log
+.vs/
+.idea/
