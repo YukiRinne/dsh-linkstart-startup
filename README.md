@@ -280,7 +280,4 @@ dsh-linkstart-startup\
 
 ## 说明
 
-- 启动器**不修改 DeepSeek Harness 的任何文件**，也不写注册表
-- 它只做三件事：读你的账号名、启动 DSH、覆盖一层动画窗口
-- 所有失败路径都通向"启动 DSH" —— 视频缺失、语音缺失、账号读不到、播放异常，都不会让你卡在动画里
-- 代码以 **MIT** 许可发布（见 `LICENSE`）；`assets\` 里的动画、语音、图标以及 `docs\poster.jpg` 取自 DeepSeek Harness，版权归原作者，**不在 MIT 许可范围内**
+代码以 **MIT** 许可发布（见 `LICENSE`）；`assets\` 里的动画、语音、图标以及 `docs\poster.jpg` 取自 DeepSeek Harness，版权归原作者，**不在 MIT 许可范围内**。
